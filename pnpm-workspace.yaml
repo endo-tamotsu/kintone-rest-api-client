@@ -1,6 +1,0 @@
-packages:
-  - "packages/**"
-  - "examples/**"
-  - "!**/lib/**"
-  - "!**/esm/**"
-  - "!**/templates/**"
