@@ -92,21 +92,5 @@
         "js-base64": "^3.7.5",
         "mime": "^3.0.0",
         "qs": "^6.11.2"
-    },
-    "exports": {
-        ".": {
-            "types": {
-                "import": "./esm/src/index.d.ts",
-                "require": "./lib/src/index.d.ts",
-                "default": "./lib/src/index.d.ts"
-            },
-            "node": {
-                "import": "./index.mjs",
-                "require": "./lib/src/index.js",
-                "default": "./lib/src/index.js"
-            },
-            "browser": "./lib/src/index.browser.js"
-        },
-        "./package.json": "./package.json"
     }
 }
